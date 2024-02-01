@@ -35,6 +35,6 @@ public class ComplexNavigationStepdefs {
     }
     @Then("I close the complex browser")
     public void iCloseTheComplexBrowser() {
-        driver.close();
+        driver.quit();
     }
 }
