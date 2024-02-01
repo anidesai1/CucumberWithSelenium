@@ -13,6 +13,7 @@ Feature: Simple Navigation
     Then I close the browser
 
     Examples:
-      |url_address                | page_title      |
-      | "http://fairfieldco.com"  | "Fairfield"     |
-      | "http://www.google.com"   | "Google"        |
+      |url_address                          | page_title      |
+      | "http://fairfieldco.com"            | "Fairfield"     |
+      | "http://www.google.com"             | "Google"        |
+      | "https://github.com/anidesai1"      | "anidesai1"     |
