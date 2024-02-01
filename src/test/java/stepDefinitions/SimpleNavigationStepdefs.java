@@ -31,4 +31,9 @@ public class SimpleNavigationStepdefs {
         String tabTitle = driver.getTitle();
         Assertions.assertTrue(tabTitle.contains(pageTitle));
     }
+
+    @Then("I close the browser")
+    public void iCloseTheBrowser() {
+        driver.close();
+    }
 }

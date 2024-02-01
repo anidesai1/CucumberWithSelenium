@@ -4,3 +4,4 @@ Feature: Simple Navigation
     Given I have a browser open
     When I navigate to "https://home.barclays/"
     Then I see the "Barclays" page
+    Then I close the browser
